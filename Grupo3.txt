@@ -1,5 +1,5 @@
-rom faker import Faker
-fake = Faker() Livia
+from faker import Faker
+fake = Faker() Livia Sales
 
 # first, import a similar Provider or use the default one
 from faker.providers import BaseProvider
@@ -12,7 +12,7 @@ class MyProvider(BaseProvider):
 # then add new provider to faker instance
 fake.add_provider(MyProvider)
 
-vanesssa
+vanesssa Aparecida
 
 # now you can use:
 fake.foo()
