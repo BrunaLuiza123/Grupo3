@@ -12,6 +12,8 @@ class MyProvider(BaseProvider):
 # then add new provider to faker instance
 fake.add_provider(MyProvider)
 
+vanesssa
+
 # now you can use:
 fake.foo()
 # 'bar'
